@@ -1,0 +1,15 @@
+{
+    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "version": "18.1.8",
+    "description": "LLVM packages for Windows",
+    "homepage": "https://github.com/vovkos/llvm-package-windows",
+    "license": "Unknown",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vovkos/llvm-package-windows/releases/download/$version/$version-windows-amd64-msvc17-msvcrt.7z"
+            }
+        }
+    }
+}
