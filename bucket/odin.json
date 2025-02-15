@@ -10,7 +10,7 @@
         }
     },
     "bin": "odin.exe",
-    "extract_dir": "odin-windows-amd64-dev-$version",
+    "extract_dir": "odin-windows-amd64-dev-2025-02",
     "checkver": {
         "url": "https://github.com/odin-lang/Odin/releases/latest",
         "regex": "/releases/tag/dev-([\\d-]+)"
@@ -20,6 +20,7 @@
             "64bit": {
                 "url": "https://github.com/odin-lang/Odin/releases/download/dev-$version/odin-windows-amd64-dev-$version.zip"
             }
-        }
+        },
+        "extract_dir": "odin-windows-amd64-dev-$version"
     }
 }
