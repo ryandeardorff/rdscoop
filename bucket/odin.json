@@ -10,6 +10,7 @@
         }
     },
     "bin": "odin.exe",
+    "extract_dir": "odin-windows-amd64-dev-$version",
     "checkver": {
         "url": "https://github.com/odin-lang/Odin/releases/latest",
         "regex": "/releases/tag/dev-([\\d-]+)"
