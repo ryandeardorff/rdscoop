@@ -6,7 +6,8 @@
     "checkver": "github",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vovkos/llvm-package-windows/releases/download/llvm-18.1.8/llvm-18.1.8-windows-amd64-msvc17-msvcrt.7z"
+            "url": "https://github.com/vovkos/llvm-package-windows/releases/download/llvm-18.1.8/llvm-18.1.8-windows-amd64-msvc17-msvcrt.7z",
+            "hash": "575339d4ecd7510e450aba77467cc6540cb00fedd86064a5b4dec1e277c95d4a"
         }
     },
     "autoupdate": {
